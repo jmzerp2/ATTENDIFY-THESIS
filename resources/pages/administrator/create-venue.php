@@ -174,11 +174,11 @@ if (isset($_POST["addVenue"])) {
 
             </div>
 
-            <div class="formDiv-venue" id="addClassForm" style="display:none ">
-                <form method="POST" action="" name="addVenue" enctype="multipart/form-data">
+            <div class="formDiv-room" id="addClassForm" style="display:none ">
+                <form method="POST" action="" name="addroom" enctype="multipart/form-data">
                     <div style="display:flex; justify-content:space-around;">
                         <div class="form-title">
-                            <p>Add Venue</p>
+                            <p>ADD ROOM</p>
                         </div>
                         <div>
                             <span class="close">&times;</span>
@@ -186,18 +186,18 @@ if (isset($_POST["addVenue"])) {
                     </div>
                     <input type="text" name="className" placeholder="Class Name" required>
                     <select name="currentStatus" id="">
-                        <option value="">--Current Status--</option>
+                        <option value="">Current Status</option>
                         <option value="availlable">Available</option>
                         <option value="scheduled">Scheduled</option>
                     </select>
                     <input type="text" name="capacity" placeholder="Capacity" required>
                     <select required name="classification">
-                        <option value="" selected> --Select Class Type--</option>
-                        <option value="laboratory">Laboratory</option>
-                        <option value="computerLab">Computer Lab</option>
-                        <option value="deptheadHall">depthead Hall</option>
-                        <option value="class">Class</option>
-                        <option value="office">Office</option>
+                        <option value="" selected>Select Classroom R</option>
+                        <option value="322">322</option>
+                        <option value="323">323</option>
+                        <option value="324">324</option>
+                        <option value="325">325</option>
+                        <option value="326">326</option>
                     </select>
                     <select required name="faculty">
                         <option value="" selected>Select Faculty</option>
@@ -208,7 +208,7 @@ if (isset($_POST["addVenue"])) {
                         }
                         ?>
                     </select>
-                    <input type="submit" class="submit" value="Save Venue" name="addVenue">
+                    <input type="submit" class="submit" value="Save room" name="addroom">
                 </form>
             </div>
         </div>
