@@ -65,7 +65,7 @@ if (isset($_POST["addVenue"])) {
 </head>
 
 <body>
-    <?php include 'includes/topbar.php' ?>
+   <?php include 'includes/topbar.php' ?>
     <section class="main">
         <?php include 'includes/sidebar.php'; ?>
         <div class="main--content">
@@ -74,14 +74,14 @@ if (isset($_POST["addVenue"])) {
 
             <div class="rooms">
                 <div class="title">
-                    <h2 class="section--title">Rooms</h2>
+                    <h2 class="section--title">ROOMS</h2>
                     <div class="rooms--right--btns">
                         <select name="date" id="date" class="dropdown room--filter">
                             <option>Filter</option>
                             <option value="free">Free</option>
                             <option value="scheduled">Scheduled</option>
                         </select>
-                        <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add depthead room</button>
+                        <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add Room</button>
                     </div>
                 </div>
                 <div class="rooms--cards">
@@ -91,7 +91,7 @@ if (isset($_POST["addVenue"])) {
                                 <img src="resources/images/office image.jpeg" alt="">
                             </div>
                         </div>
-                        <p class="free">Office</p>
+                        <p class="free">322</p>
                     </a>
                     <a href="#" class="room--card">
                         <div class="img--box--cover">
@@ -99,33 +99,33 @@ if (isset($_POST["addVenue"])) {
                                 <img src="resources/images/class.jpeg" alt="">
                             </div>
                         </div>
-                        <p class="free">Class</p>
+                        <p class="free">323</p>
                     </a>
 
                     <a href="#" class="room--card">
                         <div class="img--box--cover">
                             <div class="img--box">
-                                <img src="resources/images/depthead hall.jpeg" alt="">
+                                <img src="resources/images/class.jpeg" alt="">
                             </div>
                         </div>
-                        <p class="free">depthead Hall</p>
+                        <p class="free">324</p>
                     </a>
 
                     <a href="#" class="room--card">
                         <div class="img--box--cover">
                             <div class="img--box">
-                                <img src="resources/images/computer lab.jpeg" alt="">
+                                <img src="resources/images/class.jpeg" alt="">
                             </div>
                         </div>
-                        <p class="free">Computer Lab</p>
+                        <p class="free">325</p>
                     </a>
                     <a href="#" class="room--card">
                         <div class="img--box--cover">
                             <div class="img--box">
-                                <img src="resources/images/laboratory.jpeg" alt="">
+                                <img src="resources/images/class.jpeg" alt="">
                             </div>
                         </div>
-                        <p class="free">Science Lab</p>
+                        <p class="free">326</p>
                     </a>
                 </div>
             </div>
